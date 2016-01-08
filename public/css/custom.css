@@ -1,0 +1,112 @@
+
+div#header {
+    background-color: #462255;
+}
+
+div#header h1 {
+    color: #FFFFFF;
+    font-family: Cabin, sans-serif;
+    font-weight: 600;
+}
+
+div#header h1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#header h1 a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#header h1 a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#footer {
+    border-width: 1px 0 0 0;
+    border-color: #888888;
+    border-style: solid;
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+
+div#main-content {
+    font-family: Roboto, sans-serif;
+}
+
+div#main-content h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+div#main-content div.list-container,
+div#main-content div.list-item-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div#main-content h4.list-item {
+    font-weight: normal;
+}
+
+div.list-container h4.list-name,
+div.list-item-container h4.list-item {
+    display: inline;
+}
+
+div.list-container a.edit-list,
+div.list-item-container a.edit-list-item {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.list-container form,
+div.list-item-container form {
+    display: inline;
+}
+
+div.list-container button.delete-list,
+div.list-item-container button.delete-list-item {
+    display: inline;
+}
+
+div.list-item-container h4.list-item-completed {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+div#create-list-form label,
+div#edit-list-form label,
+div#create-list-item-form label,
+div#edit-list-item-form label {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+div#create-list-form label, 
+div#create-list-form input.form-control,
+div#edit-list-form label, 
+div#create-list-form input.form-control,
+div#create-list-item-form label,
+div#create-list-item-form input.form-control,
+div#edit-list-item-form label,
+div#edit-list-item-form input.form-control {
+    display: block;
+}
+
+div#create-list-form div.alert,
+div#edit-list-form div.alert,
+div#create-list-item-form div.alert,
+div#edit-list-item-form div.alert {
+    margin-top: 10px;
+}
+
+
+
+.btn {
+    margin-right: 10px;
+}
